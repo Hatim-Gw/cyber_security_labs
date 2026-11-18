@@ -6,7 +6,7 @@ Hands-on cybersecurity learning portfolio covering web application security, net
 
 | Lab | Topic | Status |
 | --- | --- | --- |
-| [DVWA — Session Security](labs/dvwa-session-security/README.md) | HTTP cookies, PHP sessions, and lab isolation | Documentation in progress |
+| [DVWA Brute Force Lab](labs/dvwa-brute-force/README.md) | Web authentication, HTTP request analysis, and login defenses | Report published |
 
 ## Method
 
