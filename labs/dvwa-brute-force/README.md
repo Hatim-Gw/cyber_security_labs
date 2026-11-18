@@ -63,4 +63,3 @@ The failure text used when reviewing rejected responses.
 
 ![DVWA failure message in Burp](evidence/burp-failure-marker.jpg)
 
-The success message is transcribed from the lab notes. The four screenshots do not include the successful response.
