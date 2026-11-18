@@ -47,4 +47,20 @@ The recorded success shows that the module accepted a weak password under the te
 
 ## Evidence
 
-The results are transcribed from the lab notes. Screenshot files are pending review for exposed session cookies.
+DVWA rejected the login and displayed `Username and/or password incorrect.`
+
+![DVWA login rejection](evidence/dvwa-rejected-login.jpg)
+
+Burp Proxy captured the form submission as an HTTP GET request.
+
+![Intercepted HTTP GET request](evidence/burp-get-capture.jpg)
+
+Burp recorded three configured requests for the lab run.
+
+![Burp request count](evidence/burp-request-count.jpg)
+
+The failure text used when reviewing rejected responses.
+
+![DVWA failure message in Burp](evidence/burp-failure-marker.jpg)
+
+The success message is transcribed from the lab notes. The four screenshots do not include the successful response.
